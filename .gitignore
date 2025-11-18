@@ -1,0 +1,27 @@
+# Ignore all files with a .log extension
+*.log
+
+# Ignore the entire 'node_modules' directory
+node_modules/
+
+# Ignore the 'build' directory and its contents
+build/
+
+# Ignore specific files
+.DS_Store
+.env
+
+# Ignore all files ending with .tmp
+*.tmp
+
+# Ignore all files in the 'temp' directory
+temp/*
+
+# Exclude a specific file from a previously ignored directory
+!temp/important.txt
+
+# Ignore all files in the 'dist' directory, but not the directory itself
+dist/*
+
+# Ignore all .class files in any directory
+**/*.class
